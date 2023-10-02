@@ -1,6 +1,15 @@
 *{
   font-family: 'Croissant One';
 }
+.btn{
+    text-decoration: none;
+    border: 1px solid #07b3f9;
+    color: #07b3f9;
+}
+.btn:hover{
+    background-color: #07b3f9;
+    color: white;
+}
 /* Error Page */
 .error .clip .shadow{
     height: 180px; 
@@ -161,7 +170,7 @@
 #background{
     position: absolute;
     z-index: 1;
-    top: 70%;
+    top: 80%;
     left: 25%;
 }
 
